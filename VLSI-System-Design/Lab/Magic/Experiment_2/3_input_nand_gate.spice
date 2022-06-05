@@ -1,0 +1,20 @@
+* SPICE3 file created from 3_input_nand_gate.ext - technology: scmos
+
+.option scale=1u
+
+M1000 Y A Vdd Vdd pfet w=13 l=2
++  ad=338 pd=104 as=299 ps=98
+M1001 Vdd B Y Vdd pfet w=13 l=2
++  ad=0 pd=0 as=0 ps=0
+M1002 Y C Vdd Vdd pfet w=13 l=2
++  ad=0 pd=0 as=0 ps=0
+M1003 a_n4_n26# A Gnd Gnd nfet w=13 l=2
++  ad=169 pd=52 as=130 ps=46
+M1004 a_11_n26# B a_n4_n26# Gnd nfet w=13 l=2
++  ad=169 pd=52 as=0 ps=0
+M1005 Y C a_11_n26# Gnd nfet w=13 l=2
++  ad=169 pd=52 as=0 ps=0
+C0 Vdd Y 2.4fF
+C1 Gnd gnd! 21.5fF
+C2 Y gnd! 17.8fF
+C3 Vdd gnd! 6.4fF

@@ -1,0 +1,11 @@
+p B Vdd nand0 2 9
+p A Vdd nand0 2 9
+n B nand0 B_nand_A_int 2 9
+n A B_nand_A_int Gnd 2 9
+
+p nand0 Vdd out_0 2 9
+n nand0 Gnd out_0 2 9
+
+p C Vdd out_1 2 9
+n C Gnd out_1 2 9
+
