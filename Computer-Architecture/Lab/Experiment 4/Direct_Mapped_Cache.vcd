@@ -1,0 +1,113 @@
+$date
+	Mon Feb  8 12:39:38 2021
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module top $end
+$var wire 32 ! read_data [31:0] $end
+$var reg 1 " clk $end
+$var reg 17 # read_addr [16:0] $end
+$var reg 1 $ read_enable $end
+$var reg 17 % write_addr [16:0] $end
+$var reg 32 & write_data [31:0] $end
+$var reg 1 ' write_enable $end
+$scope module C1 $end
+$var wire 1 " clk $end
+$var wire 17 ( read_addr [16:0] $end
+$var wire 1 $ read_enable $end
+$var wire 17 ) write_addr [16:0] $end
+$var wire 32 * write_data [31:0] $end
+$var wire 1 ' write_enable $end
+$var wire 3 + w_tag_w [2:0] $end
+$var wire 3 , w_tag_r [2:0] $end
+$var wire 10 - w_line_w [9:0] $end
+$var wire 10 . w_line_r [9:0] $end
+$var wire 4 / w_block_offset_w [3:0] $end
+$var wire 4 0 w_block_offset_r [3:0] $end
+$var reg 32 1 read_data [31:0] $end
+$var integer 32 2 i [31:0] $end
+$var integer 32 3 j [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b10000 3
+b10000000000 2
+bx 1
+bx 0
+bx /
+bx .
+bx -
+bx ,
+bx +
+bx *
+bx )
+bx (
+x'
+bx &
+bx %
+x$
+bx #
+x"
+bx !
+$end
+#5
+b100 ,
+b1110000000 .
+b1011 0
+b10011100000001011 #
+b10011100000001011 (
+1$
+#10
+0$
+#20
+b100 +
+b1110000000 -
+b1011 /
+b1110000011000000110011111100 &
+b1110000011000000110011111100 *
+b10011100000001011 %
+b10011100000001011 )
+1'
+#25
+0'
+#30
+1$
+#35
+0$
+#45
+b111 ,
+b11111100000001011 #
+b11111100000001011 (
+1$
+#50
+0$
+#60
+b100 ,
+b10011100000001011 #
+b10011100000001011 (
+1$
+#65
+0$
+#75
+b101 +
+b1010000011010000101000000001 &
+b1010000011010000101000000001 *
+b10111100000001011 %
+b10111100000001011 )
+1'
+#80
+0'
+#85
+b101 ,
+b10111100000001011 #
+b10111100000001011 (
+1$
+#90
+0$
+#105

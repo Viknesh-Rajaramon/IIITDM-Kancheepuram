@@ -1,0 +1,208 @@
+$date
+	Mon Jan 25 08:29:27 2021
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module top $end
+$var wire 32 ! out2 [31:0] $end
+$var wire 32 " out1 [31:0] $end
+$var reg 1 # clock $end
+$var reg 1 $ enable $end
+$var reg 32 % in [31:0] $end
+$var reg 1 & read $end
+$var reg 1 ' reset $end
+$var reg 5 ( select_in [4:0] $end
+$var reg 5 ) select_out1 [4:0] $end
+$var reg 5 * select_out2 [4:0] $end
+$var reg 1 + write $end
+$scope module mem_reg_file $end
+$var wire 1 # clock $end
+$var wire 1 $ enable $end
+$var wire 32 , in [31:0] $end
+$var wire 1 & read $end
+$var wire 1 ' reset $end
+$var wire 5 - select_input [4:0] $end
+$var wire 5 . select_output_1 [4:0] $end
+$var wire 5 / select_output_2 [4:0] $end
+$var wire 1 + write $end
+$var reg 32 0 data_1 [31:0] $end
+$var reg 32 1 data_2 [31:0] $end
+$var integer 32 2 i [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b100000 2
+bx 1
+bx 0
+b0 /
+b0 .
+b0 -
+b0 ,
+0+
+b0 *
+b0 )
+b0 (
+0'
+0&
+b0 %
+0$
+0#
+bx "
+bx !
+$end
+#10
+1#
+#20
+0#
+#30
+1#
+#40
+0#
+#50
+1#
+#60
+0#
+#70
+1#
+#80
+0#
+#90
+1#
+#100
+0#
+1$
+#110
+1#
+#120
+0#
+#130
+1#
+#140
+0#
+#150
+1#
+b1 (
+b1 -
+b10101011110011011110111110101011 %
+b10101011110011011110111110101011 ,
+1+
+#160
+0#
+#170
+1#
+#180
+0#
+#190
+1#
+#200
+0#
+b10 (
+b10 -
+b1001000110100010101100111 %
+b1001000110100010101100111 ,
+#210
+1#
+#220
+0#
+#230
+1#
+#240
+0#
+#250
+b0 !
+b0 1
+b10101011110011011110111110101011 "
+b10101011110011011110111110101011 0
+1#
+b11111 *
+b11111 /
+b1 )
+b1 .
+1&
+0+
+#260
+0#
+#270
+1#
+#280
+0#
+#290
+1#
+#300
+0#
+#310
+1#
+#320
+0#
+#330
+1#
+#340
+0#
+#350
+1#
+#360
+0#
+#370
+1#
+#380
+0#
+#390
+1#
+#400
+0#
+#410
+1#
+#420
+0#
+#430
+1#
+#440
+0#
+#450
+1#
+#460
+0#
+#470
+1#
+#480
+0#
+#490
+1#
+#500
+0#
+#510
+1#
+#520
+0#
+#530
+1#
+#540
+0#
+#550
+1#
+#560
+0#
+#570
+1#
+#580
+0#
+#590
+1#
+#600
+0#
+#610
+1#
+#620
+0#
+#630
+1#
+#640
+0#
+#650
+1#
